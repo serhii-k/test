@@ -21,7 +21,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("test-font.ttf"));
 		FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
-		parameter.characters = "m";
+		parameter.characters = "mm";
 		parameter.size = 150;
 		parameter.gamma = 0.5f;
 		font = generator.generateFont(parameter);
